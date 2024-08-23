@@ -1,9 +1,12 @@
 import './App.css';
-
+import Appbar from './components/Appbar';
+import Student from './components/Student';
 function App() {
   return (
     <div className="App">
-      this is abhishek kumar
+        {/* hi this is abhishek */}
+    <Appbar/>
+    <Student/>
     </div>
   );
 }
